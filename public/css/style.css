@@ -1,0 +1,73 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container-search-games {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin: 20px auto;
+   gap: 10px;
+   width: 950px;
+   height: 250px;
+   background-color: gray;
+}
+
+.container-search-games form #input-search-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #fff;
+   border-radius: 18px;
+   height: 40px;
+}
+
+#input-search-container .input-search {
+   flex: 6;
+   height: 40px;
+   border: none;
+   outline: none;
+   padding-left: 20px;
+   background-color: transparent;
+}
+
+#input-search-container button {
+   background: transparent;
+   outline: none;
+   border: none;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#games-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   width: 950px;
+
+   margin: 30px auto;
+
+   background-color: gray;
+}
+
+.container-card-games {
+   width: 600px;
+   height: 300px;
+
+   padding: 30px;
+
+   display: flex;
+   gap: 10px;
+}
+
+.container-card-games .game-image img {
+   width: 222px;
+   height: 222px;
+}
